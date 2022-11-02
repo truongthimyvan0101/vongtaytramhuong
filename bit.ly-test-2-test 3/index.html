@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/icons-1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="libs/fancyApp/fancyApp/fancybox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="w-information d-lg-block d-none">
+        <div class="information d-flex justify-content-between px-4 py-3 align-items-center">
+            <div class="contact d-flex">
+                <div class="email d-flex mr-4">
+                    <i class="bi bi-envelope mr-1"></i>
+                    <a href="#">phamthuy@gmail.com</a>
+                </div>
+                <div class="phone d-flex">
+                    <i class="bi bi-telephone-fill mr-1"></i>
+                    <a href="#">09xx xxx xxx - 08xxx xxx xxx</a>
+                </div>
+            </div>
+            <p class="m-0">Miễn phí giao hàng TP.Hồ Chí Minh - Hà Nội</p>
+        </div>
+    </section>
+    <header class="w-header">
+        <section>
+            <div class="head">
+                <div class="container">
+                    <div class="navbar d-lg-block d-none">
+                        <div class="social d-flex justify-content-center">
+                            <div class="image position-relative">
+                                <img src="assect/img/logo trầm hương.png" alt="">
+                            </div>
+                            <ul class="list-item position-absolute d-flex align-items-center">
+                                <li><a href="#">EN</a></li>
+                                <li><a href="#"><i class="bi bi-search"></i></a></li>
+                                <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+                                <li><a href="#"><i class="bi bi-bag"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="nav d-flex justify-content-center">
+                            <nav class="navbar pb-0 navbar-expand-lg text-center">
+                                <div class="collapse navbar-collapse">
+                                    <div class="navbar-nav">
+                                        <a class="nav-link show" href="#">TRẦM - NHANG <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="#">TRANG SỨC</a>
+                                        <a class="nav-link" href="#">TƯỢNG</a>
+                                        <a class="nav-link" href="#">LƯ XÔNG TRẦM</a>
+                                        <a class="nav-link" href="#">HÀNG MỚI</a>
+                                        <a class="nav-link" href="#">KIẾN THỨC</a>
+                                        <a class="nav-link" href="#">LIÊN HỆ</a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="menu-phone d-lg-none d-block">
+                        <div class="menu d-flex justify-content-between align-items-center position-relative">
+                            <div id="toggleOpen" class="menu-nav">
+                                <i class="bi bi-list"></i>
+                            </div>
+                            <div id="toggleClose" class="menu-nav d-none">
+                                <i class="bi bi-x"></i>
+                            </div>
+        
+                            <div class="img-logo">
+                                <img src="assect/img/logo-mobile.png" alt="">
+                            </div>
+                            <div class="icons d-flex">
+                                <i class="bi bi-search"></i>
+                                <i class="bi bi-bag ml-lg-0 ml-2"></i>
+                            </div>
+                            <div class="menu-list p-3">
+                                <div class="navbar-nav">
+                                    <a class="nav-link show" href="#">TRẦM - NHANG <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#">TRANG SỨC</a>
+                                    <a class="nav-link" href="#">TƯỢNG</a>
+                                    <a class="nav-link" href="#">LƯ XÔNG TRẦM</a>
+                                    <a class="nav-link" href="#">HÀNG MỚI</a>
+                                    <a class="nav-link" href="#">KIẾN THỨC</a>
+                                    <a class="nav-link" href="#">LIÊN HỆ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <div class="text">
+                    <a href="#" class="page-home">Trang chủ</a>
+                    <i class="bi bi-chevron-compact-right"></i>
+                    <a href="#" class="accessory">Phụ kiện</a>
+                    <i class="bi bi-chevron-compact-right"></i>
+                    <a href="#" class="bracelet">Vòng tay trầm hương</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="w-slider-image position-relative">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-7 col-12">
+                        <div class="image-list">
+                            <div class="row">
+                                <div class="col-lg-2 col-12">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active p-0" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                                <img src="assect/img/Rectangle 50.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link p-0" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                                <img src="assect/img/Rectangle 56.png" alt="">
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link p-0" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                                <img src="assect/img/Rectangle 56.png" alt="">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-10 col-12">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <img src="assect/img/Rectangle 50.png" alt="">
+                                        </div>
+                                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <img src="assect/img/Rectangle 56.png" alt="">
+                                        </div>
+                                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                            <img src="assect/img/Rectangle 56.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="social d-lg-block d-none float-right pt-3">
+                                        <a href="#"><i class="bi bi-facebook"></i></a>
+                                        <a href="#"><i class="bi bi-instagram"></i></a>
+                                        <a href="#"><i class="bi bi-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="order-products p-4">
+                            <h2>VÒNG TAY TRẦM HƯƠNG</h2>
+                            <div class="evaluate d-flex justify-content-between">
+                                <div class="icons d-flex">
+                                    <i class="bi bi-star-fill mr-2"></i>
+                                    <i class="bi bi-star-fill mr-2"></i>
+                                    <i class="bi bi-star-fill mr-2"></i>
+                                    <i class="bi bi-star-fill mr-2"></i>
+                                    <i class="bi bi-star-fill mr-2"></i>
+                                    <span class="text-secondary">(23)</span>
+                                </div>
+                                <div class="sold">
+                                    <p>Đã bán: <span>76</span></p>
+                                </div>
+                            </div>
+                            <p class="price">900.000 VND</p>
+                            <div class="ring-size d-lg-flex d-none justify-content-between">
+                                <div class="size d-flex">
+                                    <p>Size (li) </p>
+                                    <ul class="list d-flex">
+                                        <li class="item text-center ml-3">
+                                            <p class="mb-0">6</p>
+                                            <i class="bi bi-record-circle"></i>
+                                        </li>
+                                        <li class="item text-center ml-3">
+                                            <p class="mb-0">7</p>
+                                            <i class="bi bi-circle"></i>
+                                        </li>
+                                        <li class="item text-center ml-3">
+                                            <p class="mb-0">10</p>
+                                            <i class="bi bi-circle"></i>
+                                        </li>
+                                        <li class="item text-center ml-3">
+                                            <p class="mb-0">12</p>
+                                            <i class="bi bi-circle"></i>
+                                        </li>
+                                        <li class="item text-center ml-3">
+                                            <p class="mb-0">14</p>
+                                            <i class="bi bi-circle"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="text">Còn hàng</p>
+                            </div>
+                            <div class="size d-lg-none d-flex justify-content-between mb-5">
+                                <div class="sile-list d-flex">
+                                    <p class="mr-1">Size: </p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary" type="button" data-toggle="dropdown" aria-expanded="false">
+                                            6
+                                            <i class="bi bi-chevron-compact-down"></i>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <button class="dropdown-item" type="button">1</button>
+                                            <button class="dropdown-item" type="button">2</button>
+                                            <button class="dropdown-item" type="button">3</button>
+                                            <button class="dropdown-item" type="button">4</button>
+                                            <button class="dropdown-item" type="button">5</button>
+                                            <button class="dropdown-item" type="button">6</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Còn hàng</p>
+                            </div>
+                            <div class="cart d-flex justify-content-between">
+                                <div class="amount">
+                                    <span class="minus pl-3">-</span>
+                                    <input type="text" value="1">
+                                    <span class="plus pr-3">+</span>
+                                </div>
+                                <button type="button" class="btn">Thêm vào giỏ hàng</button>
+                            </div>
+                            <hr>
+                            <div class="order d-flex justify-content-between">
+                                <button type="button" class="btn buy-now ">MUA NGAY</button>
+                                <button type="button" class="btn order-now btn-outline-dark">GỌI ĐẶt HÀNG</button>
+                            </div>
+                        </div>
+                        <div class="policy p-3 ">
+                            <ul class="list d-lg-flex d-block p-0">
+                                <li>
+                                    <img src="assect/img/thanh toan.png" alt="">
+                                    <h6 class="mt-3">THANH TOÁN ONLINE</h6>
+                                    <p>an toàn và nhanh chóng</p>
+
+                                </li>
+                                <li>
+                                    <img class="image" src="assect/img/Đoi tra.png" alt="">
+                                    <h6 class="mt-3">ĐỔI TRẢ HÀNG</h6>
+                                    <p>30 ngày</p>
+
+                                </li>
+                                <li>
+                                    <img src="assect/img/shiptoanquoc.png" alt="">
+                                    <h6 class="mt-3">SHIP TOÀN QUỐC</h6>
+                                    <p>3-5 ngày</p>
+
+                                </li>
+                                <li>
+                                    <img class="image-item" src="assect/img/dambaochatluong.png" alt="">
+                                    <h6 class="mt-3">ĐẢM BẢO CHẤT LƯỢNG</h6>
+                                    <p>100% tự nhiên</p>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="socials d-lg-none d-flex justify-content-center pb-5">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+            <div class="question-circle position-absolute">
+                <i class="bi bi-question-circle-fill"></i>
+            </div>
+        </section>
+        <section class="w-product-details position-relative">
+            <div class="container">
+                <div class="details">
+                    <div class="navbar d-flex justify-content-center">
+                        <a class="nav-link active" href="#">Mô tả</a>
+                        <a class="nav-link"href="#">Chi tiết sản phẩm</a>
+                        <a class="nav-link" href="#">Đánh giá (2)</a>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left  d-flex justify-content-between" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Vòng tay trầm hương có tác dụng gì?
+                                <i class="bi bi-chevron-down"></i>
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <button class="set-count d-flex justify-content-between btn-link btn-block collapsed text-left"
+                                    type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Đặc tính của nhang trầm hương nụ
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                                <button class="purpose d-flex justify-content-between btn-link btn-block collapsed text-left"
+                                    type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Mục đích sử dụng vòng tay
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                             </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block  d-flex justify-content-between text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Công dụng của trầm hương
+                                <i class="bi bi-chevron-down"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <button class="set-count d-flex justify-content-between btn-link btn-block collapsed text-left"
+                                    type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Đặc tính của nhang trầm hương nụ
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                                <button class="purpose d-flex justify-content-between btn-link btn-block collapsed text-left"
+                                    type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Mục đích sử dụng vòng tay
+                                    <i class="bi bi-chevron-down"></i>
+                                </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="bg-img d-lg-block d-none">
+                    <div class="image-one position-absolute">
+                         <img class="img-fluid" src="assect/img/Mask group.png" alt="">
+                    </div>
+                    <div class="image-two position-absolute">
+                        <img class="img-fluid" src="assect/img/Mask group (2).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-slick-slide py-5 position-relative">
+            <div class="container">
+                <div class="similar-product d-flex justify-content-center">
+                    <h2>Sản phẩm tương tự</h2>
+                </div>
+                <hr>
+               <!-- Create your own class for the containing div -->
+                <div class="slick-carousel">
+                    <!-- Inside the containing div, add one div for each slide -->
+                    <div class="gallery-product p-2">
+                        <!-- You can put an image or text inside each slide div -->
+                        <img src="assect/img/unsplash_HJk_TLFW1Yw.png">
+                        <div class="content py-2">
+                            <p>Tượng phật tổ gỗ tràm</p>
+                            <p>1.990.000 VND</p>
+                        </div>
+                    </div>
+                    <div class="gallery-product p-2">
+                        <img src="assect/img/unsplash_HJk_TLFW1Yw.png">
+                        <div class="content py-2">
+                            <p>Tượng phật tổ gỗ tràm</p>
+                            <p>1.990.000 VND</p>
+                        </div>
+                    </div>
+                    <div class="gallery-product p-2">
+                        <img src="assect/img/unsplash_HJk_TLFW1Yw.png">
+                        <div class="content py-2">
+                            <p>Tượng phật tổ gỗ tràm</p>
+                            <p>1.990.000 VND</p>
+                        </div>
+                    </div>
+                    <div class="gallery-product p-2">
+                        <img src="assect/img/unsplash_HJk_TLFW1Yw.png">
+                        <div class="content py-2">
+                            <p>Tượng phật tổ gỗ tràm</p>
+                            <p>1.990.000 VND</p>
+                        </div>
+                    </div>
+                    <div class="gallery-product p-2">
+                        <img src="assect/img/unsplash_HJk_TLFW1Yw.png">
+                        <div class="content py-2">
+                            <p>Tượng phật tổ gỗ tràm</p>
+                            <p>1.990.000 VND</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="w-footer position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 d-lg-block d-none">
+                    <div class="image-logo">
+                        <img src="assect/img/Logo Trầm Thủy op2-05 1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quam nullam ullamcorper cursus amet risus eros. Lorem 
+                            ipsum dolor sit amet, consectetur adipiscing elit. Quam 
+                            nullam ullamcorper cursus amet risus eros. Vitae venenatis 
+                            eget nunc sagittis quis facilisis sit. Sapien ipsum et 
+                            pretium id vel suspendisse. Habitasse amet ac scelerisque 
+                            condimentum sit lorem amet. Vitae venenatis eget nunc 
+                            sagittis 
+                        </p>
+                        <div class="contact">
+                            <div class="phone-item d-flex">
+                                <p>Phone:</p>
+                                <a href="#">09xx xxx xxx - 08xx xxx xxx</a>
+                            </div>
+                            <div class="email-item d-flex">
+                                <p>Email:</p>
+                                <a href="#">tramthuy@gmail.com</a>
+                            </div>
+                        </div>
+                        <ul class="social d-flex p-0">
+                            <li class="item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li class="item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                            <li class="item"><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        </ul>
+                        <nav class="navbar navbar-light p-0">
+                            <form class="form-inline">
+                              <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Search">
+                              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Đăng ký</button>
+                            </form>
+                        </nav>
+                        <p class="mt-4">Đăng ký để nhận thông tin khuyến mãi mới nhất!</p>
+                    </div>
+                </div>
+                <div class="col-12 d-lg-none">
+                    <div class="footer d-flex">
+                        <div class="image-logo">
+                            <img src="assect/img/Logo Trầm Thủy op2-05 1.png" alt="">
+                        </div>
+                        <div class="contact">
+                            <div class="phone-item d-flex">
+                                <p>Phone:</p>
+                                <a href="#">09xx xxx xxx - 08xx xxx xxx</a>
+                            </div>
+                            <div class="email-item d-flex">
+                                <p>Email:</p>
+                                <a href="#">tramthuy@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Quam nullam ullamcorper cursus amet risus eros. Lorem 
+                            ipsum dolor sit amet, consectetur adipiscing elit. Quam 
+                            nullam ullamcorper cursus amet risus eros. Vitae venenatis 
+                            eget nunc sagittis quis facilisis sit. Sapien ipsum et 
+                            pretium id vel suspendisse. Habitasse amet ac scelerisque 
+                            condimentum sit lorem amet. Vitae venenatis eget nunc 
+                            sagittis 
+                        </p>
+                       <div class="icons d-flex justify-content-between">
+                            <ul class="social d-flex p-0">
+                                <li class="item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li class="item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                <li class="item"><a href="#"><i class="bi bi-youtube"></i></a></li>
+                            </ul>
+                            <div class="img-list">
+                                <img class="img-fluid" src="assect/img/image 1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 d-lg-block d-none">
+                    <div class="aquifer product">
+                        <h5>SẢN PHẨM</h5>
+                        <ul class="list p-0">
+                            <li class="item">
+                                <a href="#">Nhang trầm hương</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Tượng trầm</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Vòng tay trầm hương</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Lư xông trầm</a>
+                            </li>
+                        </ul>
+                        <div class="pay d-flex mt-5">
+                            <img class="img-fluid" src="assect/img/Components---Sprint-3.png" alt="">
+                            <img class="img-fluid" src="assect/img/Visa Inc. Logo.png" alt="">
+                        </div>
+                        <div class="img-list">
+                            <img class="img-fluid" src="assect/img/image 1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-lg-none">
+                    <ul class="list-item p-0">
+                        <li class="item item-social-one">
+                            <a class="navlink d-flex justify-content-between" href="#">Sản phẩm <i class="bi bi-chevron-compact-down"></i></a>
+                            <ul class="dropdown dropdown-one p-0">
+                                <li class="dropdown-item">
+                                    <a href="#">Nhang trầm hương</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Tượng trầm</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Vòng tay trầm hương</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Lư xông trầm</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item item-social-two">
+                            <a class="navlink d-flex justify-content-between" href="#">Cửa hàng <i class="bi bi-chevron-compact-down"></i></a>
+                            <ul class="dropdown dropdown-two p-0">
+                                <li class="dropdown-item">
+                                    <a href="#">Chi nhánh HCM</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Chi nhánh Huế</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item item-social-three">
+                            <a class="navlink d-flex justify-content-between" href="#">Chính sách <i class="bi bi-chevron-compact-down"></i></a>
+                            <ul class="dropdown dropdown-three p-0">
+                                <li class="dropdown-item">
+                                    <a href="#">Chính sách bảo mật</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Điều khoản dịch vụ</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Chính sách bảo hành</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Chính sách vận chuyển</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Chính sách đổi trả</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item item-social-four">
+                            <a class="navlink d-flex justify-content-between" href="#">Về chúng tôi <i class="bi bi-chevron-compact-down"></i></a>
+                            <ul class="dropdown dropdown-four p-0">
+                                <li class="dropdown-item">
+                                    <a href="#">Thông tin công ty</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">FAQs</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <nav class="navbar d navbar-light p-0">
+                        <form class="form-inline">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Đăng ký</button>
+                        </form>
+                    </nav>
+                    <p class="mt-4">Đăng ký để nhận thông tin khuyến mãi mới nhất!</p>
+                </div>
+                <div class="col-lg-2 d-lg-block d-none">
+                    <div class="aquifer shop">
+                        <h5>CỬA HÀNG</h5>
+                        <ul class="list p-0">
+                            <li class="item">
+                                <a href="#">Chi nhánh HCM</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Chi nhánh Huế</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 d-lg-block d-none">
+                    <div class="aquifer policy">
+                        <h5>CHÍNH SÁCH</h5>
+                        <ul class="list p-0">
+                            <li class="item">
+                                <a href="#">Chính sách bảo mật</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Điều khoản dịch vụ</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Chính sách bảo hành</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Chính sách vận chuyển</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">Chính sách đổi trả</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 d-lg-block d-none">
+                    <div class="aquifer about-us">
+                        <h5>VỀ CHÚNG TÔI</h5>
+                        <ul class="list p-0">
+                            <li class="item">
+                                <a href="#">Thông tin công ty</a>
+                            </li>
+                            <li class="item">
+                                <a href="#">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="image position-absolute d-lg-block d-none">
+                <img class="img-fluid" src="assect/img/Mask group (3).png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <script src="libs/jquery.animateTyping.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="libs/fancyApp/fancyApp/fancybox.umd.js""></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
